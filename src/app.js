@@ -1,6 +1,11 @@
-import double from './double.js'
+// import hello from './hello.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Hello from './hello';
 
-let result = double([1,2,3]);
-
-document.getElementById('result').innerHTML = result;
-console.log(result);
+document.addEventListener('DOMContentLoaded',() => {
+  ReactDOM.render(
+    <Hello />,
+    document.getElementById('root')
+  );
+});
