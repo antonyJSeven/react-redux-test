@@ -1,0 +1,20 @@
+{
+  "name": "em-luna",
+  "version": "1.0.0",
+  "description": "Eikon Messenger Luna",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "flow-bin": "^0.87.0",
+    "less": "^3.9.0",
+    "react": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
+  }
+}
