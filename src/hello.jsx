@@ -1,5 +1,11 @@
+// @flow
+
 import React from 'react';
 
-export default function Hello() {
-  return <h1>Hello World!!</h1>
+type HelloProps = {
+  name: String
+}
+
+export default function Hello({name} : HelloProps) {
+  return <h1>Hello {name}</h1>
 };

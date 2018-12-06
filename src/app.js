@@ -5,7 +5,7 @@ import Hello from './hello';
 
 document.addEventListener('DOMContentLoaded',() => {
   ReactDOM.render(
-    <Hello />,
+    <Hello name="Lex" />,
     document.getElementById('root')
   );
 });
