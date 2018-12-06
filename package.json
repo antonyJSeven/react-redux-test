@@ -7,9 +7,9 @@
     "prebuild": "npm run validate",
     "build": "npm run babel && npm run bundle",
     "babel": "npx babel src --out-dir temp/javascript --presets react-app/prod",
-    "bundle": "npx webpack --entry ./temp/javascript/app.js --output ./dist/app.js --mode production",
+    "bundle": "npx webpack --entry ./temp/javascript/app.js --output ./dist/app.js --mode development --devtool cheap-eval-source-map",
     "eslint": "eslint src/",
-    "validate": "nm run eslint && npm run flow",
+    "validate": "npm run eslint && npm run flow",
     "flow": "flow",
     "test": "jest"
   },
