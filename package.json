@@ -7,7 +7,7 @@
     "css": "npx lessc src/stylesheets/main.less dist/css/main.css",
     "prebuild": "npm run validate",
     "build": "npm run babel && npm run bundle && npm run css",
-    "babel": "npx babel src --out-dir temp/javascript --presets react-app/prod",
+    "babel": "npx babel src --out-dir temp/javascript",
     "bundle": "npx webpack --entry ./temp/javascript/app.js --output ./dist/app.js --mode development --devtool cheap-eval-source-map",
     "eslint": "eslint src/",
     "validate": "npm run eslint && npm run flow && npm run test",

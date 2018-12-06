@@ -1,15 +1,3 @@
 {
-  "presets": ["react-app/prod", "flow"],
-  "env":{
-    "test":{
-      "presets":[[
-        "env",
-        {
-          "targets": {
-            "node":"current"
-          }
-        }
-      ]]
-    }
-  }
+  "presets": ["env", "react", "flow"]
 }

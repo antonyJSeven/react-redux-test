@@ -1,4 +1,4 @@
-import double from './double';
+import double from '../double';
 
 describe('Double', () => {
   it('Should double an array of numbers', () => {
