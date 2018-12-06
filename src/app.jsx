@@ -1,7 +1,7 @@
 // import hello from './hello.jsx'
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './hello';
+import Hello from './Hello';
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
