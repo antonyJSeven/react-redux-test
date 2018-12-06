@@ -14,6 +14,12 @@
     "flow": "npx flow",
     "test": "npx jest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run validate",
+      "pre-push": "npm run validate"
+    }
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
