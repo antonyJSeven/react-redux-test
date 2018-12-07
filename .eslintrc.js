@@ -7,6 +7,7 @@ module.exports = {
   },
   "rules": {
     "comma-dangle": ["off", "always-multiline"],
-    "react/jsx-one-expression-per-line": [true,  {"allow": "single-child"}]
+    "react/jsx-one-expression-per-line": [true,  {"allow": "single-child"}],
+    "camelcase": ["error", {allow: ["^DOM"]}]
   }
 };

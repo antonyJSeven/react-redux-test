@@ -7,7 +7,8 @@ type HelloProps = {
 }
 
 export default function Hello({ name } : HelloProps) {
+  const output = name ? `Hello ${name}` : 'Hello';
   return (
-    <h1>Hello {name}</h1>
+    <h1>{output}</h1>
   );
 }

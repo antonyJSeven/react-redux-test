@@ -3,9 +3,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Hello from './Hello';
 
-document.addEventListener('DOMContentLoaded', () => {
+
+
+function renderApp (container) {
   ReactDOM.render(
-    <Hello name="Lex" />,
-    document.getElementById('root')
+    <Hello />,
+    container
   );
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById('root');
+  renderApp(container);
 });
+
+export default renderApp;
