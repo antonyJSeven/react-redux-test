@@ -3,7 +3,7 @@
 import React from 'react';
 
 type HelloProps = {
-  name: String
+  name: string
 }
 
 export default function Hello({ name } : HelloProps) {
