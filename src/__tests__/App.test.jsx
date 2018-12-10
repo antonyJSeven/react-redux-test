@@ -7,22 +7,8 @@ jest.mock('react-dom', () => ({
   render: jest.fn(),
 }));
 
-// global.document.addEventListener = jest.fn();
-// const DOMContentLoaded_event = document.createEvent('Event')
-// DOMContentLoaded_event.initEvent('DOMContentLoaded', true, true);
-// window.document.dispatchEvent(DOMContentLoaded_event);
-// INIT EVENT IS DEPRECIATED
-// window.document.dispatchEvent(new Event("DOMContentLoaded", {
-//   bubbles: true,
-//   cancelable: true
-// }));
-
-// mockFn.mockClear()
-
-// beforeEach(() => {
-//   console.log('beforeEach');
-// });
-
+// These tests aren't very good... but it gets 100% coverage. App file isn't the most testable
+// because all of the functions have a lot of side effects or don't return things
 describe('App', () => {
   const root = document.createElement('root');
   window.domNode = root;
@@ -34,7 +20,7 @@ describe('App', () => {
   });
 
   it('should call it with the correct React Element', () => {
-    expect(ReactDOM.render).toBeCalledWith(<Hello />, root);
+    expect(ReactDOM.render).toBeCalledWith(<Hello name="World" />, root);
   });
 
   it('can also be triggered by a DOMContentLoaded', () => {

@@ -7,7 +7,7 @@ import Hello from './Hello';
 
 function renderApp (container) {
   ReactDOM.render(
-    <Hello />,
+    <Hello name="World" />,
     container
   );
 }
