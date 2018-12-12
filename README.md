@@ -24,10 +24,16 @@ This is designed to be the simplest, dependency free, version of the client we c
 * React-Redux: Stitch together React and Redux!
 * Webpack: Used to bundle all of our JS into a single file. Trying to keep its responsibilities to the minimum.
 * Watch: Run npm tasks when source files change.
-Less: Out CSS extensions of choice. Mostly because our internal (Refinitiv) Element Library is built using it.
+* Less: Out CSS extensions of choice. Mostly because our internal (Refinitiv) Element Library is built using it.
 
 # Questions
 * Q: Why no webpack-dev-server?
 * A: We don't need it. Webpack is an excellent tool for bundling javascript but we don't want to put too many eggs in one basket. See old build tools such as grunt, gulp and the world of plugins that had to be kept up to date.
-* 
 
+# TO DOS:
+* Q: Styleguidedist, storybook or roll our own?
+* Add lint-staged
+* JIRA integration
+* App server
+* Q: Snapshots testing for UI?
+* Q: Use sinon for event simulation?
