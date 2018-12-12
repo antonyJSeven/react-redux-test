@@ -1,0 +1,8 @@
+.date {
+    background: #fcfff6;
+    min-height:100px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    padding: 50px;
+}
