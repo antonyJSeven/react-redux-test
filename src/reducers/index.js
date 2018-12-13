@@ -2,7 +2,11 @@ import {ADD_ARTICLE} from "../constants/action-types";
 
 const initialState = {
     articles: [],
-    clickText: 'Click me'
+    clickText: 'Click me',
+    profile: {
+        name: 'Antony',
+        age: 26
+    }
 };
 
 const rootReducer = (state = initialState, action) => {

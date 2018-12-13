@@ -2,21 +2,25 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import DateComponent from './components/DateComponent/dateComponent'
 import './App.css';
+import {ProfileComponent} from './components/ProfileComponent'
+import { connect } from 'react-redux'
 
 // import store from './store'
 
 // import '@elf/elf-theme-elemental/light';
 
-class App extends Component {
+
+export default class App extends Component {
     constructor(props) {
         super(props);
     }
 
   render() {
+      // const { clickText } = this.props.data;
     return (
       <div className="App">
           <DateComponent/>
-          <div>azazaz</div>
+          <ProfileComponent/>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -36,4 +40,10 @@ class App extends Component {
   }
 }
 
-export default App;
+// function mapStateToProps (state) {
+//     return {
+//         data: state
+//     }
+// }
+//
+// export default connect(mapStateToProps)(App);

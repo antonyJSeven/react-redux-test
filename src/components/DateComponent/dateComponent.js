@@ -19,7 +19,7 @@ export default class DateComponent extends React.Component {
     }
 
     startTimer = () => {
-        console.log(this.props);
+        console.log('props in DateComponent',this.props);
         // console.log(this.props.store.getState());
         setInterval( () => {
             this.setState({time : new Date().toLocaleTimeString()});
