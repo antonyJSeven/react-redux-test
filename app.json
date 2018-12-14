@@ -1,0 +1,50 @@
+{
+  "name": "KievOnboardingAntonyZ",
+  "displayName": "KievOnboardingAntonyZ",
+  "type": "WebApp",
+  "version": "1.0.15",
+  "defaultPlatform": "NodeJS",
+  "defaultPage": "index.html",
+  "datacenter_configurations": {
+    "alpha": {
+      "serviceEndpoint": {
+        "RoleAndSettingLive": "http://adminws.icp2.cp.us1.reuintint.com/RoleAndSettingLive/RoleAndSettingLiveServices_1.asmx"
+      }
+    },
+    "beta": {
+      "serviceEndpoint": {
+        "RoleAndSettingLive": "http://adminws.cp.ntc.reuint.com/RoleAndSettingLive/RoleAndSettingLiveServices_1.asmx"
+      }
+    },
+    "ppe1": {
+      "serviceEndpoint": {
+        "RoleAndSettingLive": "http://adminws.cp.ntc.reuppint.com/RoleAndSettingLive/RoleAndSettingLiveServices_1.asmx"
+      }
+    },
+    "ppe2": {
+      "serviceEndpoint": {
+        "RoleAndSettingLive": "http://adminws.cp.ntc.reuint.com/RoleAndSettingLive/RoleAndSettingLiveServices_1.asmx"
+      }
+    },
+    "hdcp": {
+      "serviceEndpoint": {
+        "RoleAndSettingLive": "http://adminws.cp.hdc.reuint.com/RoleAndSettingLive/RoleAndSettingLiveServices_1.asmx"
+      }
+    },
+    "stcp": {
+      "serviceEndpoint": {
+        "RoleAndSettingLive": "http://adminws.cp.stc.reuint.com/RoleAndSettingLive/RoleAndSettingLiveServices_1.asmx"
+      }
+    },
+    "dtcp": {
+      "serviceEndpoint": {
+        "RoleAndSettingLive": "http://adminws.cp.dtc.reuint.com/RoleAndSettingLive/RoleAndSettingLiveServices_1.asmx"
+      }
+    },
+    "ntcp": {
+      "serviceEndpoint": {
+        "RoleAndSettingLive": "http://adminws.cp.ntc.reuint.com/RoleAndSettingLive/RoleAndSettingLiveServices_1.asmx"
+      }
+    }
+  }
+}

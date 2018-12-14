@@ -1,0 +1,368 @@
+{
+    "FileName": "AZ.xlsx",
+    "Workbook": {
+        "Worksheets": [
+            {
+                "Name": "Browser Usage Stats",
+                "AdjustWidthToContents": "true",
+                "RowCollections": [
+                    {
+                        "StartRow": "3",
+                        "StartCol": "1",
+                        "Style": {
+                            "Border": {
+                                "TopBorder": "5",
+                                "TopBorderColor": "#FF9933",
+                                "LeftBorder": "5",
+                                "LeftBorderColor": "#FF9933",
+                                "RightBorder": "5",
+                                "RightBorderColor": "#FF9933",
+                                "BottomBorder": "5",
+                                "BottomBorderColor": "#FF9933",
+                                "InsideBorder": "5",
+                                "InsideBorderColor": "#FF9933"
+                            }
+                        },
+                        "Rows": [
+                            {
+                                "Cells": [
+                                    {
+                                        "Value": "Source",
+                                        "Style": {
+                                            "Fill": {
+                                                "BackgroundColor": "#DDDDDD"
+                                            },
+                                            "Alignment": {
+                                                "Horizontal": "0"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Value": "Chrome",
+                                        "Hyperlink": {
+                                            "IsExternal": true,
+                                            "ExternalAddress": "http://www.chrome.com"
+                                        },
+                                        "Style": {
+                                            "Fill": {
+                                                "BackgroundColor": "#DDDDDD"
+                                            },
+                                            "Alignment": {
+                                                "Horizontal": "0"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Value": "Internet Explorer",
+                                        "Hyperlink": {
+                                            "IsExternal": true,
+                                            "ExternalAddress": "http://www.internetexplorer.com"
+                                        },
+                                        "Style": {
+                                            "Fill": {
+                                                "BackgroundColor": "#DDDDDD"
+                                            },
+                                            "Alignment": {
+                                                "Horizontal": "0"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Value": "Firefox",
+                                        "Hyperlink": {
+                                            "IsExternal": true,
+                                            "ExternalAddress": "http://www.firefox.com"
+                                        },
+                                        "Style": {
+                                            "Fill": {
+                                                "BackgroundColor": "#DDDDDD"
+                                            },
+                                            "Alignment": {
+                                                "Horizontal": "0"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Value": "Safari",
+                                        "Hyperlink": {
+                                            "IsExternal": true,
+                                            "ExternalAddress": "http://www.apple.com/safari"
+                                        },
+                                        "Style": {
+                                            "Fill": {
+                                                "BackgroundColor": "#DDDDDD"
+                                            },
+                                            "Alignment": {
+                                                "Horizontal": "0"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Value": "Opera",
+                                        "Hyperlink": {
+                                            "IsExternal": true,
+                                            "ExternalAddress": "http://www.opera.com"
+                                        },
+                                        "Style": {
+                                            "Fill": {
+                                                "BackgroundColor": "#DDDDDD"
+                                            },
+                                            "Alignment": {
+                                                "Horizontal": "0"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Value": "Other",
+                                        "Style": {
+                                            "Fill": {
+                                                "BackgroundColor": "#DDDDDD"
+                                            },
+                                            "Alignment": {
+                                                "Horizontal": "0"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Value": "Total",
+                                        "Style": {
+                                            "Fill": {
+                                                "BackgroundColor": "#DDDDDD"
+                                            },
+                                            "Alignment": {
+                                                "Horizontal": "0"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Cells": [
+                                    "NetApplications",
+                                    22.7,
+                                    59.1,
+                                    11.9,
+                                    5.0,
+                                    0.9,
+                                    0.4,
+                                    {
+                                        "FormulaR1C1": "=SUM(INDIRECT(\"B\"&ROW()&\":G\"&ROW()))"
+                                    }
+                                ]
+                            },
+                            {
+                                "Cells": [
+                                    "StatCounter",
+                                    49.7,
+                                    24.6,
+                                    18.0,
+                                    4.7,
+                                    1.5,
+                                    1.6,
+                                    {
+                                        "FormulaR1C1": "=SUM(INDIRECT(\"B\"&ROW()&\":G\"&ROW()))"
+                                    }
+                                ]
+                            },
+                            {
+                                "Cells": [
+                                    {
+                                        "Value": "W3Counter"
+                                    },
+                                    {
+                                        "Value": "42.5"
+                                    },
+                                    {
+                                        "Value": "17.6"
+                                    },
+                                    {
+                                        "Value": "15.6"
+                                    },
+                                    {
+                                        "Value": "14.6"
+                                    },
+                                    {
+                                        "Value": "3.2"
+                                    },
+                                    {
+                                        "Value": "6.5"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=SUM(INDIRECT(\"B\"&ROW()&\":G\"&ROW()))"
+                                    }
+                                ]
+                            },
+                            {
+                                "Cells": [
+                                    {
+                                        "Value": "Wikimedia"
+                                    },
+                                    {
+                                        "Value": "48.1"
+                                    },
+                                    {
+                                        "Value": "17.5"
+                                    },
+                                    {
+                                        "Value": "16.7"
+                                    },
+                                    {
+                                        "Value": "4.8"
+                                    },
+                                    {
+                                        "Value": "1.5"
+                                    },
+                                    {
+                                        "Value": "11.4"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=SUM(INDIRECT(\"B\"&ROW()&\":G\"&ROW()))"
+                                    }
+                                ]
+                            },
+                            {
+                                "Cells": [
+                                    {
+                                        "Value": "Average"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=AVERAGE(INDIRECT(\"B\"&(ROW()-4)&\":\"&\"B\"&(ROW()-1)))"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=AVERAGE(INDIRECT(\"C\"&(ROW()-4)&\":\"&\"C\"&(ROW()-1)))"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=AVERAGE(INDIRECT(\"D\"&(ROW()-4)&\":\"&\"D\"&(ROW()-1)))"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=AVERAGE(INDIRECT(\"E\"&(ROW()-4)&\":\"&\"E\"&(ROW()-1)))"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=AVERAGE(INDIRECT(\"F\"&(ROW()-4)&\":\"&\"F\"&(ROW()-1)))"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=AVERAGE(INDIRECT(\"G\"&(ROW()-4)&\":\"&\"G\"&(ROW()-1)))"
+                                    },
+                                    {
+                                        "FormulaR1C1": "=AVERAGE(INDIRECT(\"B\"&ROW()&\":G\"&ROW()))"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "Sample Formatting",
+                "AdjustWidthToContents": "true",
+                "Cells": [
+                    {
+                        "Row": 1,
+                        "Col": 1,
+                        "DataType": "Text",
+                        "Value": "Text"
+                    },
+                    {
+                        "Row": 2,
+                        "Col": 1,
+                        "DataType": "Text",
+                        "Value": "Here is some text"
+                    },
+                    {
+                        "Row": 1,
+                        "Col": 2,
+                        "DataType": "Text",
+                        "Value": "DateTime should be active"
+                    },
+                    {
+                        "Row": 2,
+                        "Col": 2,
+                        "DataType": "DateTime",
+                        "Value": "5/5/2015",
+                        "Active": true
+                    },
+                    {
+                        "Row": 1,
+                        "Col": 3,
+                        "DataType": "Text",
+                        "Value": "Boolean"
+                    },
+                    {
+                        "Row": 2,
+                        "Col": 3,
+                        "DataType": "Boolean",
+                        "Value": "true"
+                    },
+                    {
+                        "Row": 1,
+                        "Col": 4,
+                        "DataType": "Text",
+                        "Value": "Number (Standard Format)"
+                    },
+                    {
+                        "Row": 2,
+                        "Col": 4,
+                        "DataType": "Number",
+                        "Style":{"NumberFormat":{"NumberFormatId":"2"}},
+                        "Value": "1234"
+                    },
+                    {
+                        "Row": 1,
+                        "Col": 5,
+                        "DataType": "Text",
+                        "Value": "Number (Custom Format)"
+                    },
+                    {
+                        "Row": 2,
+                        "Col": 5,
+                        "DataType": "Number",
+                        "Style":{"NumberFormat":{"Format":"0"}},
+                        "Value": "5678"
+                    },
+                    {
+                        "Row": 1,
+                        "Col": 6,
+                        "DataType": "Text",
+                        "Value": "Number (Custom Format)"
+                    },
+                    {
+                        "Row": 2,
+                        "Col": 6,
+                        "DataType": "Number",
+                        "Style":{"NumberFormat":{"Format":"0.00"}},
+                        "Value": "5678.456"
+                    },
+                    {
+                        "Row": 5,
+                        "Col": 1,
+                        "FormulaA1": "=SUM(D2:F2)",
+                        "Style":{"NumberFormat":{"Format":"0.00"}}
+                    },
+                    {
+                        "Row": 5,
+                        "Col": 2,
+                        "Hyperlink": {
+                            "IsExternal": true,
+                            "ExternalAddress": "http://www.google.com"
+                        },
+                        "Value": "Go To Google"
+                    },
+                    {
+                        "Row": 5,
+                        "Col": 4,
+                        "FormulaR1C1": "=SUM(D2:F2)"
+                    },
+                    {
+                        "Row": 6,
+                        "Col": 2,
+                        "Hyperlink": {
+                            "IsExternal": true,
+                            "ExternalAddress": "http://closedxml.codeplex.com/wikipage?title=NumberFormatId%20Lookup%20Table&referringTitle=Styles%20-%20NumberFormat"
+                        },
+                        "Value": "ClosedXML Predefined Number Formats"
+                    }
+                ]
+            }
+        ]
+    }
+}

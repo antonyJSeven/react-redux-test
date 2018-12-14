@@ -5,7 +5,7 @@ import '@elf/polyfills';
 import '@elf/coral-button'; // Element
 import '@elf/coral-input'; // Element
 import '@elf/elf-theme-elemental/light/coral-button';
-// import '@elf/elf-theme-elemental/light/coral-input';
+import '@elf/elf-theme-elemental/light/coral-input';
 
 export default class DateComponent extends React.Component {
 
@@ -20,7 +20,6 @@ export default class DateComponent extends React.Component {
 
     startTimer = () => {
         console.log('props in DateComponent',this.props);
-        // console.log(this.props.store.getState());
         setInterval( () => {
             this.setState({time : new Date().toLocaleTimeString()});
         }, 1000)
@@ -28,10 +27,9 @@ export default class DateComponent extends React.Component {
 
     render() {
         return (
-            <div className="date">
-                <input type="text" placeholder={this.state.time}/>
+            <div className="test">
+                <h3>This is test react component</h3>
                 <coral-input icon="bubble" placeholder={this.state.time}></coral-input>
-                <coral-button>try try try</coral-button>
             </div>
         );
     }

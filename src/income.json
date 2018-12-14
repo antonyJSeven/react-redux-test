@@ -1,0 +1,340 @@
+{
+  "status": "Ok",
+  "rows": 1,
+  "cols": 110,
+  "currentlang": "en-US",
+  "r": [
+    [
+      {
+        "v": "Rental Income"
+      },
+      {
+        "v": "Operating costs charged to tenants"
+      },
+      {
+        "v": "Income from services rendered"
+      },
+      {
+        "v": "Total Revenue"
+      },
+      {
+        "v": "Operating expenses"
+      },
+      {
+        "v": "Other expenses directly related to properties rented"
+      },
+      {
+        "v": "Cost of revenues/COGS"
+      },
+      {
+        "v": "As reported Gross Profit"
+      },
+      {
+        "v": "under development"
+      },
+      {
+        "v": "Income from the sale of properties and construction works"
+      },
+      {
+        "v": "Book value of properties sold incl. ancillary and construction costs"
+      },
+      {
+        "v": "Result from trading and construction works"
+      },
+      {
+        "v": "Result from the sale of investment properties"
+      },
+      {
+        "v": "Depreciation and impairment of long-term assets"
+      },
+      {
+        "v": "Depreciation/Amortization"
+      },
+      {
+        "v": "Impairment loss on goodwill"
+      },
+      {
+        "v": "Depreciation"
+      },
+      {
+        "v": "Amortization of Intangibles including Goodwill"
+      },
+      {
+        "v": "Amortization of Computer Software"
+      },
+      {
+        "v": "Depreciation - Investment Property"
+      },
+      {
+        "v": "Changes in value of properties held for trading"
+      },
+      {
+        "v": "Depreciation and impairment/reversal"
+      },
+      {
+        "v": "Personnel expenses"
+      },
+      {
+        "v": "Office rent"
+      },
+      {
+        "v": "Own Work Capitalized - Cost of Goods Sold"
+      },
+      {
+        "v": "Change in properties held for trading"
+      },
+      {
+        "v": "Admin/General Expenses - Balancing value"
+      },
+      {
+        "v": "Indirect expenses"
+      },
+      {
+        "v": "Revaluation Gain"
+      },
+      {
+        "v": "Revaluation Loss"
+      },
+      {
+        "v": "Other operating income"
+      },
+      {
+        "v": "Equity Earnings - before Tax"
+      },
+      {
+        "v": "Result from sale of joint ventures"
+      },
+      {
+        "v": "Result from joint ventures"
+      },
+      {
+        "v": "Operating (Income)/Expense, net"
+      },
+      {
+        "v": "Balancing Item - Income from Operations, net"
+      },
+      {
+        "v": "Result of operations (EBIT)"
+      },
+      {
+        "v": "Interest expense banks"
+      },
+      {
+        "v": "Other interest and finance costs"
+      },
+      {
+        "v": "Capitalised interest"
+      },
+      {
+        "v": "Finance costs"
+      },
+      {
+        "v": "Finance costs - Balancing value"
+      },
+      {
+        "v": "Foreign currency gains/losses"
+      },
+      {
+        "v": "Result from derivatives"
+      },
+      {
+        "v": "Valuation interest rate derivative transactions"
+      },
+      {
+        "v": "Change of ineffectiveness of cash-flow hedges"
+      },
+      {
+        "v": "Reclassification of valuation results recognized in equity"
+      },
+      {
+        "v": "Result of Valuation of derivative convertible bond"
+      },
+      {
+        "v": "Result from financial investments"
+      },
+      {
+        "v": "Interest income from loans to associated companies and joint ventures"
+      },
+      {
+        "v": "Interest income on bank deposits"
+      },
+      {
+        "v": "Revenues from dividends"
+      },
+      {
+        "v": "Other interest income"
+      },
+      {
+        "v": "Net Financial Income/Expense - Other"
+      },
+      {
+        "v": "Result from other financial assets"
+      },
+      {
+        "v": "Result from associated companies"
+      },
+      {
+        "v": "Balancing Item - Non Operating Income/(Expense), net"
+      },
+      {
+        "v": "Financial result"
+      },
+      {
+        "v": "Balancing Item - Pretax Income"
+      },
+      {
+        "v": "Net result before taxes (EBT)"
+      },
+      {
+        "v": "Income tax expense"
+      },
+      {
+        "v": "Current income tax"
+      },
+      {
+        "v": "Deferred taxes"
+      },
+      {
+        "v": "Income Taxes - Total"
+      },
+      {
+        "v": "Consolidated net income"
+      },
+      {
+        "v": "thereof attributable to the owners of the parent"
+      },
+      {
+        "v": "thereof attributable to non-controlling interests"
+      },
+      {
+        "v": "Minority Interests"
+      },
+      {
+        "v": "Income Available to Com Excl Extra Ordinary"
+      },
+      {
+        "v": "Income Available to Com Including  Extra Ordinary"
+      },
+      {
+        "v": "Cash flow hedges - changes in fair value"
+      },
+      {
+        "v": "Reclassification cash flow hedges"
+      },
+      {
+        "v": "Revaluation other investments"
+      },
+      {
+        "v": "Income tax related to other comprehensive income"
+      },
+      {
+        "v": "Revaluation securities"
+      },
+      {
+        "v": "Revaluation IAS 16"
+      },
+      {
+        "v": "Other Comprehensive Income - Net of Tax - Total"
+      },
+      {
+        "v": "Comprehensive income attributable to - Non-controlling interests"
+      },
+      {
+        "v": "Comprehensive income (loss) attributable to - Owners of the parent"
+      },
+      {
+        "v": "Total comprehensive income"
+      },
+      {
+        "v": "As Reported Basic Weighted Avg. Shares"
+      },
+      {
+        "v": "As Reported Diluted Weighted Avg. Shares"
+      },
+      {
+        "v": "Reported Basic EPS"
+      },
+      {
+        "v": "Basic EPS Excluding Extra Ordinary Items"
+      },
+      {
+        "v": "Reported Diluted EPS"
+      },
+      {
+        "v": "Diluted EPS Excluding Extra Ordinary Items"
+      },
+      {
+        "v": "Allocated Diluted Net Income Including  Extra Items applicable to Common - (Instrument Level)"
+      },
+      {
+        "v": "Allocated Net Income Including  Extra Items applicable to Common - (Instrument Level)"
+      },
+      {
+        "v": "Basic EPS - Net Income excl Extra Items applicable to Common - (Instrument Level)"
+      },
+      {
+        "v": "Basic EPS - Net Inc Including  Extra Items Applicable to Common - (Instrument Level)"
+      },
+      {
+        "v": "Diluted EPS - Net Inc Including  Extra Items Applicable to Common - (Instrument Level)"
+      },
+      {
+        "v": "Diluted EPS - Net Income excl Extra Items applicable to Common - (Instrument Level)"
+      },
+      {
+        "v": "Basic Weighted Average Shares used to Calculate EPS - (Instrument Level)"
+      },
+      {
+        "v": "Diluted Weighted Average Shares used to Calculate EPS - (Instrument Level)"
+      },
+      {
+        "v": "Dilution Adjustment"
+      },
+      {
+        "v": "Diluted Net Income"
+      },
+      {
+        "v": "Diluted Net Income excluding Extra Items applicable to Common - (Company Level)"
+      },
+      {
+        "v": "Diluted Net Income excluding Extra Items applicable to Common - (Instrument Level) "
+      },
+      {
+        "v": "Diluted Earnings Allocation Factor - (Instrument Level)"
+      },
+      {
+        "v": "Earnings Allocation Factor - (Instrument Level)"
+      },
+      {
+        "v": "Net Income excluding Extra Items applicable to Common - (Instrument Level) "
+      },
+      {
+        "v": "Allocated Dilution Adjustment - (Instrument Level)"
+      },
+      {
+        "v": "Rental Expenses"
+      },
+      {
+        "v": "Audit Fees"
+      },
+      {
+        "v": "Audit-Related Fees"
+      },
+      {
+        "v": "All Other Fees"
+      },
+      {
+        "v": "Auditor Fees - Total"
+      },
+      {
+        "v": "Total Depreciation of Fixed Assets"
+      },
+      {
+        "v": "Total Depreciation & Amortization (Combined)"
+      },
+      {
+        "v": "Amortization of Intangible Assets excluding Goodwill - Total"
+      }
+    ]
+  ]
+}

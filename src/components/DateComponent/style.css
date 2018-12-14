@@ -6,3 +6,8 @@
     flex-direction:column;
     padding: 50px;
 }
+
+.test {
+    border:2px solid #5275ff;
+    margin-bottom:5px;
+}

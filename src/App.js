@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import DateComponent from './components/DateComponent/dateComponent'
 import './App.css';
-import {ProfileComponent} from './components/ProfileComponent'
+import ProfileComponent from './components/ProfileComponent'
+import AppEngineComponent from './components/AppEngineComponent'
 import { connect } from 'react-redux'
-
-// import store from './store'
 
 // import '@elf/elf-theme-elemental/light';
 
@@ -16,11 +15,11 @@ export default class App extends Component {
     }
 
   render() {
-      // const { clickText } = this.props.data;
     return (
       <div className="App">
           <DateComponent/>
           <ProfileComponent/>
+          <AppEngineComponent/>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

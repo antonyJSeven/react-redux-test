@@ -2,18 +2,22 @@
   "name": "eikon-test",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:10030/",
   "dependencies": {
     "@elf/coral-button": "^3.0.7",
     "@elf/coral-input": "^3.0.13",
     "@elf/elf-theme-elemental": "^1.2.6",
     "@elf/polyfills": "^3.0.5",
     "@webcomponents/custom-elements": "^1.2.1",
+    "axios": "^0.18.0",
     "custom-element-react-mount": "^0.1.5",
+    "file-saver": "^2.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.1",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,6 +36,7 @@
   ],
   "devDependencies": {
     "babel-plugin-transform-custom-element-classes": "^0.1.0",
-    "babel-plugin-transform-es2015-classes": "^6.24.1"
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "redux-devtools-extension": "^2.13.7"
   }
 }
