@@ -21,6 +21,8 @@ const store = createStore(rootReducer, composeWithDevTools(
     // other store enhancers if any
 ));
 
+console.log(store.getState());
+
 ReactDOM.render(<Provider store={store}>
         <App/>
     </Provider>

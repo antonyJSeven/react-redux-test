@@ -2,7 +2,7 @@
   "name": "KievOnboardingAntonyZ",
   "displayName": "KievOnboardingAntonyZ",
   "type": "WebApp",
-  "version": "1.0.15",
+  "version": "1.0.32",
   "defaultPlatform": "NodeJS",
   "defaultPage": "index.html",
   "datacenter_configurations": {

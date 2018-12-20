@@ -4,6 +4,7 @@ import { saveAs } from 'file-saver';
 export class requestService {
     url = '/datacloud/snapshot/rest/v2/select';
     excelUrl = '/Apps/ExcelExport/1.5.7/JsonToExcel';
+    userUrl = '/Apps/ResearchAdminAPI/1.14.6/currentUserInfo/';
 
     sendRequest = request => {
         const searchParams = () => {
@@ -42,5 +43,19 @@ export class requestService {
                 saveAs(file,'azaza1.xlsx');
             })
 
+    };
+
+    fetchUserById = id => {
+        return fetch(this.userUrl, {
+            headers: {
+                'reutersUuid': '1',
+                'appId': '1',
+            },
+            credentials: 'same-origin',
+            method: 'GET'
+        })
+            .then(res => res.json())
+            .then(response => console.log(response))
+            .catch(err => console.log(err))
     }
 }

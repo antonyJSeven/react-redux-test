@@ -5,7 +5,7 @@ import './index.css';
 import '@elf/polyfills';
 import '@elf/coral-button'; // Element
 import '@elf/elf-theme-elemental/light/coral-button';
-import {startFetchFakeData} from "../../actions";
+import {commonAction} from "../../actions";
 
 class ProfileComponent extends Component {
 
@@ -14,6 +14,7 @@ class ProfileComponent extends Component {
     ) : null;
 
     render() {
+        console.log('ProfileComponent props----->',this.props);
         return (
             <div className="profile">
                 <h3>Hello from Profile Component</h3>
@@ -23,21 +24,19 @@ class ProfileComponent extends Component {
             </div>
         )
     }
-
 }
 
 const mapStateToProps = function(state) {
     return {
-        profile: state.profile,
-        response: state.response
-
+        profile: state.common.profile,
+        response: state.common.response
     }
 };
 
 const mapDispatchToProps = dispatch => {
     return {
-        fetchFakeData: todo => {
-            dispatch(startFetchFakeData(Math.round((Math.random() * 10) + 1)));
+        fetchFakeData: () => {
+            dispatch(commonAction.startFetchFakeData(Math.round((Math.random() * 10) + 1)));
         }
     };
 };
