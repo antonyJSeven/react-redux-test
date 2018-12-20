@@ -1,4 +1,20 @@
+#npm node modules
 node_modules
+npm-debug.log*
+# testing
 coverage
+# production
+build
 dist
+# Sublime text project space
+*.sublime-workspace
+*.sublime-project
+# zip file
+*.zip
+# Mac DS_Store Files
+.DS_Store
+# IDE
+.idea
+.vscode
+# temp
 temp

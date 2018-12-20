@@ -4,55 +4,43 @@
   "description": "Eikon Messenger Luna",
   "main": "index.js",
   "scripts": {
-    "css": "npx lessc src/stylesheets/main.less dist/css/main.css",
-    "prebuild": "npm run validate",
-    "build": "npm run babel && npm run bundle && npm run css",
-    "build:dev": "npm run babel && npm run bundle && npm run css",
-    "babel": "npx babel src --out-dir temp/javascript",
-    "bundle": "npx webpack --entry ./temp/javascript/app.js --output ./dist/app.js --mode development --devtool cheap-eval-source-map",
-    "eslint": "eslint src/",
-    "validate": "npm run eslint && npm run flow && npm run test",
-    "flow": "npx flow",
-    "test": "npx jest",
-    "watch:dev": "watch 'npm run build:dev' src/"
+    "start": "webpack-dev-server --open-page index.html --mode=development",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run validate",
-      "pre-push": "npm run validate"
-    }
+  "repository": {
+    "type": "git",
+    "url": "git@git.sami.int.thomsonreuters.com:collab-eikonmessenger/em-luna.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@babel/cli": "^7.2.0",
-    "@babel/preset-flow": "^7.0.0",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
     "@babel/preset-react": "^7.0.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
-    "flow": "^0.2.3",
-    "flow-bin": "^0.88.0",
-    "husky": "^1.2.0",
-    "jest": "^23.6.0",
-    "less": "^3.9.0",
-    "npm-check": "^5.9.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.0.1",
+    "file-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "resolve-url-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.12.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@elf/polyfills": "3.0.5",
+    "jet-api": "2.2.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
     "redux": "^4.0.1",
-    "watch": "^1.0.2",
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2",
-    "@babel/core": "^7.2.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
-    "@babel/preset-env": "^7.2.0",
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1"
+    "redux-thunk": "^2.3.0"
   }
 }

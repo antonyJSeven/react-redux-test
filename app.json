@@ -1,0 +1,8 @@
+{
+  "name": "EpamSandboxLuna",
+  "displayName": "EpamSandboxLuna",
+  "type": "WebApp",
+  "version": "0.1.0",
+  "defaultPlatform": "NodeJS",
+  "defaultPage": "index.html"
+}
