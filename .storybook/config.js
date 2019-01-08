@@ -1,7 +1,7 @@
 import { configure, setAddon, addDecorator } from '@storybook/react';
-import JSXAddon from 'storybook-addon-jsx';
-import withThemes from "storybook-addon-themes";
 import { withInfo } from '@storybook/addon-info';
+import JSXAddon from 'storybook-addon-jsx';
+import withThemes from 'storybook-addon-themes';
 
 setAddon(JSXAddon);
 
@@ -16,10 +16,10 @@ function loadStories() {
         inline: true,
     }));
     addDecorator(withThemes([
-        { name: "day", class: "theme-day", color: "#c7e7ed", default: true },
-        { name: "night", class: "theme-night", color: "#080509" },
+        { name: 'day', class: 'theme-day', color: '#c7e7ed', default: true },
+        { name: 'night', class: 'theme-night', color: '#080509' },
     ]));
-    requireAll(require.context("..", true, /_story\.jsx?$/));
+    requireAll(require.context('..', true, /_story\.jsx?$/));
 }
 
 configure(loadStories, module);
